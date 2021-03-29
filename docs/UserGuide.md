@@ -129,7 +129,6 @@ Examples:
 * `search s/raffles hwa` returns students studying in `Raffles Institution`,
   `Hwa chong institution`, and also students whose name consists of Hwa or Raffles if there is any.
 
-### Searching for a contact by name: `search n/...`
 Searches for a student’s contact whose contact name contains any of the given keywords.
 
 Format: `search n/KEYWORD [MORE_KEYWORDS]`
@@ -152,7 +151,6 @@ Examples:
 * `search n/eliza` returns `Eliza` and `Eliza Ng`
 * `search n/Patrick Lim` returns `patrick lim` and `Lim Zi Ying`
 
-### Searching for a contact by school: `search s/...`
 Searches for contacts from a specific school using keywords
 
 Format: `search s/KEYWORD [MORE_KEYWORDS]`
@@ -186,7 +184,7 @@ Examples:
 
 ### Deleting a person : `delete`
 
-Permanently deletes the specified student's contact from the address book.
+Deletes the specified student's contact from the address book.
 
 Format: `delete INDEX`
 
